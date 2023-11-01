@@ -1,10 +1,8 @@
-<center>
+<h1 align="center">🚀 Python Projects 🚀</h1>
 
-# 🐍 Python_Projects 🚀
-
-Welcome to my Python projects repository! This is a space where I share the interesting and challenging Python projects that I've been working on. Dive in to explore the power and flexibility of Python!
-
-</center>
+<p align="center">
+	Welcome to my Python projects repository! This is a space where I share the interesting and challenging Python projects that I've been working on. Dive in to explore the power and flexibility of Python!
+</p>
 
 ## 🎲 Projects
 
@@ -16,6 +14,8 @@ Welcome to my Python projects repository! This is a space where I share the inte
 
 4. **⬆️⬇️ Higher Lower Game**: In this game, the player is presented with two items and has to guess which one is more popular based on Google search data.
 
+5. **➕➖✖️➗ Calculator**: This is a command-line calculator that can perform basic arithmetic operations. The user can choose to add, subtract, multiply, or divide two numbers. The calculator will keep running until the user chooses to exit.
+
 ## 🎨 Logos
 
 If you're looking for logos to use in your projects, here are a few websites where you can find a wide variety of free and premium logos:
@@ -26,6 +26,10 @@ If you're looking for logos to use in your projects, here are a few websites whe
 - [Icons8](https://icons8.com/icons)
 
 Remember to always check the license and usage conditions for each logo.
+
+## 📝 License
+
+This project is licensed under the terms of the MIT license.
 
 ## 🚀 Getting Started
 
