@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Python Projects 🚀</h1>
+<h1 align="center">🐍 Python_Projects 🚀</h1>
 
 <p align="center">
 	Welcome to my Python projects repository! This is a space where I share the interesting and challenging Python projects that I've been working on. Dive in to explore the power and flexibility of Python!
