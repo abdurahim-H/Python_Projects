@@ -25,4 +25,5 @@ Once you have Python installed, you can clone this repository using the followin
 ```bash
 git clone https://github.com/abdurahim-H/Python_Projects.git
 
-Then, navigate to the project you want to run and execute the Python file. For example, to run the Blackjack game, you would do:
+Then, navigate to the project you want to run and execute the Python file
+For example, to run the Blackjack game, you would do:
