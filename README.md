@@ -16,12 +16,6 @@ Welcome to my Python projects repository! This is a space where I share the inte
 
 4. **⬆️⬇️ Higher Lower Game**: In this game, the player is presented with two items and has to guess which one is more popular based on Google search data.
 
-## 🚀 Getting Started
-
-To run these projects, you'll need to have Python installed on your machine. You can download Python [here](https://www.python.org/downloads/).
-
-Once you have Python installed, you can clone this repository using the following command:
-
 ## 🎨 Logos
 
 If you're looking for logos to use in your projects, here are a few websites where you can find a wide variety of free and premium logos:
@@ -32,6 +26,13 @@ If you're looking for logos to use in your projects, here are a few websites whe
 - [Icons8](https://icons8.com/icons)
 
 Remember to always check the license and usage conditions for each logo.
+
+## 🚀 Getting Started
+
+To run these projects, you'll need to have Python installed on your machine. You can download Python [here](https://www.python.org/downloads/).
+
+Once you have Python installed, you can clone this repository using the following command:
+
 
 ```bash
 git clone https://github.com/abdurahim-H/Python_Projects.git
