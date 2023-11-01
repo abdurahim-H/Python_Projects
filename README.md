@@ -22,6 +22,17 @@ To run these projects, you'll need to have Python installed on your machine. You
 
 Once you have Python installed, you can clone this repository using the following command:
 
+## 🎨 Logos
+
+If you're looking for logos to use in your projects, here are a few websites where you can find a wide variety of free and premium logos:
+
+- [Flaticon](https://www.flaticon.com/)
+- [Freepik](https://www.freepik.com/)
+- [Iconfinder](https://www.iconfinder.com/)
+- [Icons8](https://icons8.com/icons)
+
+Remember to always check the license and usage conditions for each logo.
+
 ```bash
 git clone https://github.com/abdurahim-H/Python_Projects.git
 
