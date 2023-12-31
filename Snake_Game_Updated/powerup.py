@@ -1,3 +1,7 @@
+import random
+from turtle import Turtle
+
+
 # In your powerup.py
 class PowerUp(Turtle):
 	def __init__(self):
