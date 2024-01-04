@@ -29,7 +29,7 @@
 
 ```python
 class Player(Turtle):
-	# Implementation details here
+
 ```
 
 ### 🏆 Scoreboard
@@ -40,7 +40,7 @@ class Player(Turtle):
 
 ```python
 class Scoreboard(Turtle):
-	# Implementation details here
+
 ```
 
 <!-- Getting Started Section -->
