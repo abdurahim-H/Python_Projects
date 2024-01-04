@@ -1,7 +1,12 @@
-<div align="center">
-  <h1>Turtle Crossing Game</h1>
-  <img src="https://i.imgur.com/8rgwjUg.png" alt="Game Preview" width="500">
-</div>
+<p align="center">
+  <img src="https://i.imgur.com/8rgwjUg.png" alt="Game Preview">
+</p>
+
+<h1 align="center">🐢 Turtle Crossing Game 🎮</h1>
+
+<p align="center">
+  Welcome to the Turtle Crossing Game! 🌟 This Python-based game, leveraging the `turtle` module, brings the excitement of crossing a bustling road while controlling a turtle character. Similar to the beloved classic Frogger game, your objective is to guide the turtle safely across a busy road filled with moving cars.
+</p>
 
 # 🐢 Turtle Crossing Game 🎮
 
