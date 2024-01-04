@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/8rgwjUg.png" alt="Game Preview">
+  <img src="https://i.imgur.com/kGGEK9R.png">
 </p>
 
 <h1 align="center">🐢 Turtle Crossing Game 🎮</h1>
