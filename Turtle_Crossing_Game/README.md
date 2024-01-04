@@ -1,4 +1,3 @@
-```markdown
 <!-- Banner Image -->
 <p align="center">
   <img src="https://i.imgur.com/kGGEK9R.png" alt="Game Preview" width="400px">
