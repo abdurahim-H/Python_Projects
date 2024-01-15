@@ -11,8 +11,7 @@
 # LONG_BREAK_MIN = 20
 # reps = 0
 # timer = None
-
-# # ---------------------------- TIMER RESET ------------------------------- # 
+# # ---------------------------- TIMER RESET ------------------------------- #
 # def reset():
 #     # my_label_2.grid_forget()
 #     window.after_cancel(timer)
@@ -90,6 +89,7 @@
 
 from tkinter import *
 import math
+import os
 
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
@@ -100,6 +100,7 @@ FONT_NAME = "Courier"
 WORK_MIN = 0.20
 SHORT_BREAK_MIN = 0.20
 LONG_BREAK_MIN = 20
+work_sessions = 0
 reps = 0
 timer = None
 marks = ""
@@ -109,6 +110,7 @@ def reset():
 	window.after_cancel(timer)
 	canvas.itemconfig(timer_text, text="00:00")
 	my_label.config(text="Timer")
+	my_label_1.config(text="")
 	global reps
 	reps = 0
 
@@ -121,22 +123,30 @@ marks = ""
 def start_work_time():
 	global reps
 	global timer
+	global work_sessions
 	if timer is not None:
 		window.after_cancel(timer)
 	reps = 1
 	work_sec = WORK_MIN * 60
 	count_down(work_sec)
 	my_label.config(text="Working", fg=GREEN)
+	work_sessions += 1
+ 
 
 def start_break_time():
 	global reps
 	global timer
+	global work_sessions
 	if timer is not None:
 		window.after_cancel(timer)
 	reps = 2
-	short_break_sec = SHORT_BREAK_MIN * 60
-	count_down(short_break_sec)
-	my_label.config(text="Short Break", fg=RED)
+	if work_sessions % 4 == 0:
+		break_sec = LONG_BREAK_MIN * 60
+		my_label.config(text="Long Break", fg=RED)
+	else:
+		break_sec = SHORT_BREAK_MIN * 60
+		my_label.config(text="Short Break", fg=RED)
+	count_down(break_sec)
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
@@ -153,13 +163,15 @@ def count_down(count):
 		global reps
 		if reps == 1:
 			start_break_time()
+			os.system('play Game-time-sound-effect.mp3 trim 0 2')
 		else:
 			start_work_time()
+			os.system('play Gentle-wake-alarm-clock.mp3 trim 0 2')
 		if reps % 2 == 0:
 			marks += "✔"
 			my_label_1.config(text=marks)
 			my_label_1.grid(row=3, column=1)
-# my_label.config(text=f"Work{'✔' * (reps // 2)}", fg=GREEN)
+			# my_label.config(text=f"Work{'✔' * (reps // 2)}", fg=GREEN)
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
