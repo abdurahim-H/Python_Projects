@@ -1,7 +1,7 @@
 <h1 align="center">🐍 Python_Projects 🚀</h1>
 
 <p align="center">
-	Welcome to my Python projects repository! This is a space where I share the interesting and challenging Python projects that I've been working on. Dive in to explore the power and flexibility of Python!
+  <img src="[https://i.imgur.com/lTlUmcC.pnghttps://i.imgur.com/lTlUmcC.png](https://i.imgur.com/6qH9TNq.png)" alt="Python_Projects">
 </p>
 
 <p align="center">
