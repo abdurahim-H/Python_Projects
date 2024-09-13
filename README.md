@@ -1,7 +1,7 @@
 <h1 align="center">🐍 Python_Projects 🚀</h1>
 
 <p align="center">
-  <img src="[https://i.imgur.com/lTlUmcC.pnghttps://i.imgur.com/lTlUmcC.png](https://i.imgur.com/6qH9TNq.png)" alt="Python_Projects">
+  <img src="https://i.imgur.com/6qH9TNq.png" alt="Python_Projects">
 </p>
 
 <p align="center">
