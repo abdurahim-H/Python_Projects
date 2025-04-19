@@ -1,0 +1,12 @@
+name: PR Number Workflow
+
+on:
+  pull_request:    # Trigger the workflow on pull request events
+
+jobs:
+  print-pr-number:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Pull Request Number
+        run: |
+          echo "The Pull Request number is: ${{ github.event.number }}"
