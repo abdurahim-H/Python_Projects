@@ -1,28 +1,12 @@
 name: PR Number Workflow
 
 on:
-  pull_request:
+  pull_request:    # Trigger the workflow on pull request events
 
 jobs:
-  build:
+  print-pr-number:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set environment variables
+      - name: Print Pull Request Number
         run: |
-          echo "GITHUB_EVENT_NAME=pull_request" >> $GITHUB_ENV
-          echo "GITHUB_REPOSITORY=${{ github.repository }}" >> $GITHUB_ENV
-          echo "GITHUB_REF=refs/pull/${{ github.event.number }}/merge" >> $GITHUB_ENV
-          echo "GITHUB_BASE_REF=${{ github.base_ref }}" >> $GITHUB_ENV
-          echo "PR_NUMBER=${{ github.event.number }}" >> $GITHUB_ENV
-
-      - name: Show environment variables
-        run: |
-          echo "GITHUB_EVENT_NAME=$GITHUB_EVENT_NAME"
-          echo "GITHUB_REPOSITORY=$GITHUB_REPOSITORY"
-          echo "GITHUB_REF=$GITHUB_REF"
-          echo "GITHUB_BASE_REF=$GITHUB_BASE_REF"
-          echo "PR_NUMBER=$PR_NUMBER"
+          echo "The Pull Request number is: ${{ github.event.number }}"
