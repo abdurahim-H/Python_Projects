@@ -60,3 +60,4 @@ git clone https://github.com/abdurahim-H/Python_Projects.git
 
 Then, navigate to the project you want to run and execute the Python file.
 For example, to run the Blackjack game, you would do:
+# Test PR trigger
